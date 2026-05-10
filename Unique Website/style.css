@@ -1,0 +1,23 @@
+div p{
+    color: blue;
+}
+
+div > p{
+    color: red;
+}
+
+h2 + p{
+    color: purple;
+}
+
+/* h2 ~ p{
+    color: orange;
+} */
+
+input[type=text]{
+    border: solid blue 1px;
+}
+
+a:hover{
+    color: red;
+}
