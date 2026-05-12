@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Business Permit Registration Form</title>
+    
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Federal Democratic Republic of Ethiopia</h1>
+        <h2>Business Permit Registration Form</h2>
+
+        <form>
+
+            <!-- Applicant Information -->
+            <div class="section">
+                <h3>1. Applicant Information</h3>
+
+                <div class="row">
+                    <div class="form-group">
+                        <label for="firstName">First Name</label>
+                        <input type="text" id="firstName" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" id="lastName" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="form-group">
+                        <label for="gender">Gender</label>
+                        <select id="gender">
+                            <option>Male</option>
+                            <option>Female</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="nationality">Nationality</label>
+                        <input type="text" id="nationality" value="Ethiopian">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="idNumber">National ID / Kebele ID Number</label>
+                    <input type="text" id="idNumber">
+                </div>
+
+                <div class="row">
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Business Information -->
+            <div class="section">
+                <h3>2. Business Information</h3>
+
+                <div class="form-group">
+                    <label for="businessName">Business Name</label>
+                    <input type="text" id="businessName" required>
+                </div>
+
+                <div class="row">
+                    <div class="form-group">
+                        <label for="tin">TIN Number</label>
+                        <input type="text" id="tin">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="licenseType">License Type</label>
+                        <select id="licenseType">
+                            <option>Trade License</option>
+                            <option>Manufacturing License</option>
+                            <option>Import / Export License</option>
+                            <option>Service Business License</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="businessSector">Business Sector</label>
+                    <input type="text" id="businessSector">
+                </div>
+
+                <div class="form-group">
+                    <label for="businessDescription">Business Description</label>
+                    <textarea id="businessDescription" rows="4"></textarea>
+                </div>
+            </div>
+
+            <!-- Business Address -->
+            <div class="section">
+                <h3>3. Business Address</h3>
+
+                <div class="row">
+                    <div class="form-group">
+                        <label for="region">Region</label>
+                        <input type="text" id="region">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="city">City</label>
+                        <input type="text" id="city">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="form-group">
+                        <label for="subcity">Sub-City</label>
+                        <input type="text" id="subcity">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="woreda">Woreda</label>
+                        <input type="text" id="woreda">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="address">Detailed Address</label>
+                    <textarea id="address" rows="3"></textarea>
+                </div>
+            </div>
+
+            <!-- Document Upload -->
+            <div class="section">
+                <h3>4. Required Documents</h3>
+
+                <div class="form-group">
+                    <label for="idUpload">Upload Identification Document</label>
+                    <input type="file" id="idUpload">
+                </div>
+
+                <div class="form-group">
+                    <label for="taxUpload">Upload Tax Identification Certificate</label>
+                    <input type="file" id="taxUpload">
+                </div>
+
+                <div class="form-group">
+                    <label for="businessPlan">Upload Business Plan</label>
+                    <input type="file" id="businessPlan">
+                </div>
+            </div>
+
+            <!-- Declaration -->
+            <div class="section">
+                <h3>5. Declaration</h3>
+
+                <div class="checkbox-group">
+                    <input type="checkbox" id="declaration" required>
+                    <label for="declaration">
+                        I hereby declare that the information provided is true and correct.
+                    </label>
+                </div>
+            </div>
+
+            <!-- Submit -->
+            <div class="section" style="text-align:center;">
+                <button type="submit">Submit Application</button>
+            </div>
+
+        </form>
+
+        <div class="footer-note">
+            <p>
+                Note: Submission of false information may result in rejection
+                of the business permit application according to Ethiopian trade regulations.
+            </p>
+        </div>
+
+    </div>
+
+</body>
+</html>
