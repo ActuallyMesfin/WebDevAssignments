@@ -53,6 +53,11 @@
     align-items: center;
 }
 
+.thirdPuppies{
+    margin: 40px; 
+    width: 50%;
+}
+
 #morePuppiesText{
     text-align: center; 
     font-family: 'Courier New', Courier, monospace;
