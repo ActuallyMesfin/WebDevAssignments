@@ -1,0 +1,71 @@
+/* <h1 style="background-color: dodgerblue; color: white; margin: 0%; text-align: center; font-family: 'Courier New', Courier, monospace;"> */
+#bannerHeader{
+    background-color: dodgerblue; 
+    color: white;
+    margin: 0%;
+    text-align: center; 
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#bannerDiv{
+    width: 100%; 
+    background-color: red; 
+    height: 400px;
+}
+
+#puppyBanner{
+     height: 100%; 
+     width: 100%; 
+     object-fit: fill;
+}
+
+.secondaryBanners{
+    width: 100%; 
+    margin: 10px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+#missingPuppy{
+    width: 33%; 
+    height:310px; 
+    margin: 10px; 
+    background-color: red; 
+}
+
+.secondaryPuppies{
+    width: 33%; 
+    height: fit-content; 
+    margin: 10px;
+}
+
+#missingText{
+    text-align: center; 
+    font-size: 58px;
+}
+
+#thirdPuppyBanners{
+    width: 100%; 
+    margin: 10px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+#morePuppiesText{
+    text-align: center; 
+    font-family: 'Courier New', Courier, monospace;
+}
+
+footer{
+    background-color: blueviolet; 
+    width: 100%; 
+    height: 200px;
+}
+
+#developedBy{
+    align-items: center; 
+    text-align: center; 
+    margin: 30px;
+}
