@@ -1,0 +1,10 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+/* Header Style */
+.header-wrapper{
+    background-color: black;
+    color: white;
+}
