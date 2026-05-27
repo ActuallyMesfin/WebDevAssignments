@@ -15,7 +15,7 @@ img{
     background-color: black;
     color: white;
     font-weight: 200%;
-    font-size: 0.75em;
+    font-size: 1em;
 }
 
 .header-wrapper ul{
@@ -273,8 +273,15 @@ img{
     padding-top: 54px;
 }
 
+.left-side-wrapper .description-wrapper{
+    font-size: 25px;
+}
+
 .fourth-highlight-wrapper .left-side-wrapper{
     background-image: url("../images/home/watch-series-5.jpg");
+    background-size: initial;
+    background-color: #fafafa;
+    background-position: bottom;
 }
 
 .right-side-wrapper{
@@ -312,6 +319,10 @@ img{
 
 .fifth-highlight-wrapper .right-side-wrapper{
     background-image: url("../images/home/air-pods.jpg");
+    color: #fff;
+    background-size: initial;
+    background-color: #000;
+    background-position: bottom;
 }
 
 .logo-wrapper{
@@ -325,7 +336,7 @@ img{
 
 .watch-more-wrapper a{
     text-decoration: none;
-    font-size: 0.85em;
+    font-size: 1em;
 }
 
 .watch-more-wrapper a:after{
@@ -345,8 +356,13 @@ img{
 
 .sixth-highlight-wrapper .left-side-wrapper{
     background-image: url("../images/home/macbook-pro.jpg");
+    background-size: initial;
+    background-color: #fafafa;
+    background-position: bottom;
 }
 
 .sixth-highlight-wrapper .right-side-wrapper{
     background-image: url("../images/home/new-ipad.jpg");
+    background-size: initial;
+    background-position: bottom;
 }
