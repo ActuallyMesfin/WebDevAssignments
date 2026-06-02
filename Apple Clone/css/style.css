@@ -16,6 +16,8 @@ img{
     color: white;
     font-weight: 200%;
     font-size: 1em;
+    position: sticky;
+    top: 0; 
 }
 
 .header-wrapper ul{
