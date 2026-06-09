@@ -1,0 +1,6 @@
+Outer Div - Div
+Banner and Top Text - Header and two Divs inside
+Three middle posters - ternary-div - Div > Div * 3
+More puppies text - Section
+Two puppies - Div with two other Divs
+footer - footer

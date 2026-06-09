@@ -1,76 +1,155 @@
 /* <h1 style="background-color: dodgerblue; color: white; margin: 0%; text-align: center; font-family: 'Courier New', Courier, monospace;"> */
-#bannerHeader{
-    background-color: dodgerblue; 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.HEADER {
+    background: #29547f;
+    height: 60px;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.HEADER h1 {
     color: white;
-    margin: 0%;
-    text-align: center; 
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
 }
 
-#bannerDiv{
-    width: 100%; 
-    background-color: red; 
+.BANNER {
+    width: 100%;
     height: 400px;
+    object-fit: cover;
+    
 }
 
-#puppyBanner{
-     height: 100%; 
-     width: 100%; 
-     object-fit: fill;
+.PUPPIES-ROW {
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
 }
 
-.secondaryBanners{
-    width: 100%; 
-    margin: 10px; 
-    display: flex; 
-    justify-content: center; 
+.PUPPY {
+    width: 33.33%;
+    object-fit: cover;
+    display: block;
+}
+
+.MISSING {
+    width: 30%;
+    min-height: 200px;
+    font-size:30px;
+    background: #E34960;
+    display: flex;
     align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
-#missingPuppy{
-    width: 33%; 
-    height:310px; 
-    margin: 10px; 
-    background-color: red; 
+.MISSING p {
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1.4;
 }
 
-.secondaryPuppies{
-    width: 33%; 
-    height: fit-content; 
-    margin: 10px;
+.TITLE {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 28px;
+    margin: 20px 0;
 }
 
-#missingText{
-    text-align: center; 
-    font-size: 58px;
+.MORE-PUPPIES-ROW {
+    width: 80%;
+    margin: 0 auto 30px auto;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
 }
 
-#thirdPuppyBanners{
-    width: 100%; 
-    margin: 10px; 
-    display: flex; 
-    justify-content: center; 
-    align-items: center;
-}
-
-.thirdPuppies{
-    margin: 40px; 
+.PUPPY-LARGE {
     width: 50%;
+    display: block;
+    object-fit: cover;
 }
 
-#morePuppiesText{
-    text-align: center; 
-    font-family: 'Courier New', Courier, monospace;
-}
-
-footer{
-    background-color: blueviolet; 
-    width: 100%; 
+.FOOTER {
+    background: #29547f;
     height: 200px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-#developedBy{
-    align-items: center; 
-    text-align: center; 
-    margin: 30px;
+.FOOTER h1 {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+}
+@media (max-width: 768px) {
+  
+  .ternary-container {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .ternary h1{
+    background-color: yellow;
+    width: 25%; /* Shrinks back down to desktop size */
+    height: 310px;
+    margin: 20px;
+    padding-right: 85px;
+    padding-left: 68px;
+  } 
+
+  .two-puppies-container {
+    width: 49%;
+  }
+
+  .two-puppies-container:nth-child(2) {
+    margin-left: 1%;
+  }
+}
+@media (max-width: 768px) {
+    .MISSING{
+        background-color: crimson;
+        display: block;
+    }
+
+    #MISSING h2{
+        position: relative;
+        text-align: center;
+        font-size: 40px;
+        padding-top: 75px;
+        padding-left: 68px;
+        padding-right: 85px;
+        margin: 0 10px;
+    }
+
+    .TITLE{
+        padding: 30px 0;
+        font-size: 25px;
+        font-weight: 600;
+        color: black;
+    }
+
+    .MORE-PUPPIES-ROW{
+        width: 49%;
+    }
+
+    .MORE-PUPPIES-ROW :nth-child(2){
+        margin-left: 3%;
+    }
+
+    div{
+        margin: 0 10%;
+        display: flex;
+    }
 }
