@@ -32,31 +32,61 @@ a{
     position: sticky;
     top: 0; 
     transition: 1s ease-out;
+    padding: 2em;
+    background-image: url(images/pictures/central-campus-area.jpg);
+    object-fit: cover;
 }
 
 
-.nav-container ul{
-    border-style: none solid none solid;
-    border-width: 0 2em 0 2em;
-    border-color: red;
+.nav-container ul{ 
+    border-radius: 2em;
+    border-color: red; 
     display: flex;
     justify-content: space-between;
-    background-color: beige;
+    background-color: rgba(245, 245, 220, 0.5); 
 }
  
-.nav-container a:hover{
-    font-size: 1.1em;
+.nav-list a:hover{
+    
     color: red;
     background-color: wheat;
-    padding: 0.7em;
-    border-radius: 45px;
+    border-radius: 1.1em;
 }
 
 .internal-nav-container img{
-    height: 1.5em;
+    object-fit: contain;
+    min-height: 1.5em;
+    min-width: 1.5em;
+    flex-shrink: 0;
 }
 
 
 .nav-container .internal-nav-container ul li{
     padding: 4em 4em;
+}
+
+.outer-footer-container{
+    display: flex;
+    background-image: url(images/pictures/department-blocks.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: initial;
+    object-fit: cover;
+}
+
+.footer-logo-container{
+    width: 9%;
+    margin: 2em;
+}
+
+.footer-notice-container{
+    width: 25%;
+    margin: 2em;
+}
+
+.links-container{
+    display: flex;
+    justify-content: space-between;
+    width: 66%;
+    margin: 2em;
 }
