@@ -1,10 +1,9 @@
-/* <h1 style="background-color: dodgerblue; color: white; margin: 0%; text-align: center; font-family: 'Courier New', Courier, monospace;"> */
 * {
     margin: 0;
     padding: 0;
 }
 
-.HEADER {
+header {
     background: #29547f;
     height: 60px;;
     display: flex;
@@ -12,13 +11,13 @@
     justify-content: center;
 }
 
-.HEADER h1 {
+header h1 {
     color: white;
     font-family: Arial, sans-serif;
     font-size: 24px;
 }
 
-.BANNER {
+.banner {
     width: 100%;
     height: 400px;
     object-fit: cover;
@@ -40,7 +39,7 @@
     display: block;
 }
 
-.MISSING {
+.PUPPY-MISSING {
     width: 30%;
     min-height: 200px;
     font-size:30px;
@@ -51,7 +50,7 @@
     text-align: center;
 }
 
-.MISSING p {
+.PUPPY-MISSING p {
     font-size: 28px;
     font-weight: bold;
     line-height: 1.4;
@@ -118,15 +117,15 @@
   }
 }
 @media (max-width: 768px) {
-    .MISSING{
+    .PUPPY-MISSING{
         background-color: crimson;
         display: block;
     }
 
-    #MISSING h2{
+    #PUPPY-PUPPY-MISSING h2{
         position: relative;
         text-align: center;
-        font-size: 40px;
+        font-size: 40;
         padding-top: 75px;
         padding-left: 68px;
         padding-right: 85px;
